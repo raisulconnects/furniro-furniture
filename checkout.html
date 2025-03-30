@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar Area -->
+    <div class="nav-area">
+      <div class="nav">
+        <div class="nav-l">
+          <img src="img/Logo-Furniro.png" alt="Logo" />
+        </div>
+        <div class="nav-m">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="blog.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-r">
+          <img
+            src="img/mdi_account-alert-outline.png"
+            alt="alertLogo"
+            style="cursor: pointer"
+          />
+          <img
+            src="img/akar-icons_search.png"
+            alt="searchLogo"
+            style="cursor: pointer"
+          />
+          <img
+            src="img/akar-icons_heart.png"
+            alt="heartLogo"
+            onclick="window.location.href='product.html'"
+            style="cursor: pointer"
+          />
+          <img
+            src="img/ant-design_shopping-cart-outlined.png"
+            alt="cartLogo"
+            onclick="window.location.href='cart.html'"
+            style="cursor: pointer"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Area -->
+    <div class="shop-hero-area">
+      <div class="top-hero">
+        <div class="top-hero-texts">
+          <img src="img/cart.html/Meubel House_Logos-05.png" alt="" />
+          <h1>Checkout</h1>
+          <p><b>Home ></b> Checkout</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkout Area -->
+    <div class="checkout-area">
+      <div class="checkout">
+        <div class="checkout-l">
+          <h1>Billing Details</h1>
+          <div class="checkout-l-top">
+            <div class="checkout-l-top-1">
+              <p>First Name</p>
+              <input type="text" />
+            </div>
+            <div class="checkout-l-top-2">
+              <p>Last Name</p>
+              <input type="text" />
+            </div>
+          </div>
+          <p>Company Name (Optional)</p>
+          <input type="text" class="company" />
+          <p>Country / Region</p>
+          <select id="" name="" class="country-region">
+            <option>Sri Lanka</option>
+            <option>Canada</option>
+            <option>Afganistan</option>
+            <option>Nepal</option>
+          </select>
+          <p>Street Address</p>
+          <input type="text" class="street-adress" />
+          <p>Town / City</p>
+          <input type="text" class="town-city" />
+          <p>Province</p>
+          <select id="" name="" class="province">
+            <option>Western Province</option>
+            <option>Northern Province</option>
+          </select>
+          <p>ZIP Code</p>
+          <input type="text" class="zip" />
+          <p>Phone</p>
+          <input type="number" class="phone" />
+          <p>Email Address</p>
+          <input type="email" class="email-address" />
+          <br />
+          <input
+            type="text"
+            placeholder="Additional Information"
+            class="Additional-info"
+          />
+        </div>
+        <div class="checkout-r">
+          <div class="checkout-r-r">
+            <div class="checkout-r-1">
+              <h2>Product</h2>
+              <p>Asgaard sofa <sup>x 1</sup></p>
+              <p>Subtotal</p>
+              <p>Total</p>
+            </div>
+            <div class="checkout-r-2">
+              <h2>Subtotal</h2>
+              <p>Rs. 250,000.00</p>
+              <p>Rs. 250,000.00</p>
+              <p style="color: #b88e2f; font-size: 20px">Rs. 250,000.00</p>
+            </div>
+          </div>
+          <hr />
+          <form class="formInCheckout">
+            <label>
+              <input type="radio" name="gender" checked />
+              Direct Bank Transfer
+            </label>
+            <p>
+              Make your payment directly into our bank account. Please use your
+              Order ID as the payment reference. Your order will not be shipped
+              until the funds have cleared in our account.
+            </p>
+            <label>
+              <input type="radio" name="gender" />
+              Cash Of Delivery
+            </label>
+            <p>
+              Your personal data will be used to support your experience
+              throughout this website, to manage access to your account, and for
+              other purposes described in our <b>privacy policy</b>.
+            </p>
+            <br />
+            <div class="checkout-btn-div">
+              <button class="checkout-btn" type="submit">Place Order</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Upper + Footer -->
+    <div class="footer-upper">
+      <div class="footer-upper-content">
+        <img src="img/SHOP.HTML/trophy 1.png" alt="" />
+        <div>
+          <h1>High Quality</h1>
+          <p>crafted from top materials</p>
+        </div>
+      </div>
+      <div class="footer-upper-content">
+        <img src="img/SHOP.HTML/guarantee.png" alt="" />
+        <div>
+          <h1>Warranty Protection</h1>
+          <p>Over 2 years</p>
+        </div>
+      </div>
+      <div class="footer-upper-content">
+        <img src="img/SHOP.HTML/shipping.png" alt="" />
+        <div>
+          <h1>Free Shipping</h1>
+          <p>Order over 150$</p>
+        </div>
+      </div>
+      <div class="footer-upper-content">
+        <img src="img/SHOP.HTML/customer-support.png" alt="" />
+        <div>
+          <h1>24/7 Support</h1>
+          <p>Dedicated support</p>
+        </div>
+      </div>
+    </div>
+    <hr style="opacity: 0.3" />
+    <div class="footer-area">
+      <!-- <hr class="line" /> -->
+      <div class="footer">
+        <div>
+          <img src="img/footer/Funiro..png" alt="" />
+          <h4>
+            400 University Drive Suite 200 <br />Coral Gables, FL 33134 USA
+          </h4>
+        </div>
+        <div>
+          <p>Links</p>
+          <div class="linksFooter">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div>
+          <p>Help</p>
+          <div class="linksFooter">
+            <a href="#">Payment Options</a>
+            <a href="#">Returns</a>
+            <a href="#">Privacy Policies</a>
+          </div>
+        </div>
+        <div>
+          <p>Newsletter</p>
+          <input type="email" placeholder="Enter your Email Address" />
+          <a class="SUBSCRIBE" href="#"> <u>SUBSCRIBE</u> </a>
+        </div>
+      </div>
+      <hr class="line" />
+      <h5>2023 furino. All rights reverved</h5>
+    </div>
+  </body>
+</html>
