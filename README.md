@@ -3,7 +3,7 @@
 A sleek and modern furniture website built from scratch using **HTML**, **CSS**, and a touch of **JavaScript**. Furniro offers a clean user interface for browsing elegant furniture products.
 
 ### 🔗 Live Demo
-🌐 [Visit Site](https://furnirofurniture.netlify.app/)
+🌐 [Hosted on Netlify](https://furnirofurniture.netlify.app/)
 
 ---
 
